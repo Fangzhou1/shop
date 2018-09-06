@@ -14,3 +14,5 @@ Route::get('/', 'PagesController@root')->name('root');
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+Auth::routes();
